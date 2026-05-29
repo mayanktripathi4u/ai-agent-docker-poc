@@ -18,6 +18,9 @@ You will now see a new folder called `/dist` in your project.
 **Step 3**: Upload to PyPI
 ```sh
 python -m twine upload dist/*
+
+# python -m twine upload --repository PROJECT_NAME dist/* 
+python -m twine upload --repository mcp-people-finder dist/*
 ```
 
 **Step 4**: Provide Credentials

@@ -1,6 +1,6 @@
 [project]
 name = "mcp-people-finder"
-version = "0.1.0"
+version = "0.1.1"
 description = "Enterprise-grade People Finder MCP Server"
 authors = [
     {name = "Mayank Tripathi", email = ""}

@@ -2,10 +2,6 @@ from mcp.server.fastmcp import FastMCP
 import os
 import sys
 import asyncio
-from dotenv import load_dotenv
-
-# Load environment variables (useful for local testing)
-load_dotenv()
 
 # Initialize FastMCP - the name identifies your server to the LLM
 # mcp = FastMCP("PeopleFinder", dependencies=["httpx"])
